@@ -41,8 +41,8 @@ plot_inputs(df)
 #there is only one hidden layer that contains a decision boundary for an and/or node.
 
 # an activation function (TANH)
-function tanh(z)
-    return (exp(z) - exp(-z))/(exp(z) + exp(-z))
+function sigmoid(z)
+    return z = 1/(1+ exp(-z))    
 end 
 # make a loss function (Binary Cross Entropy) ???
 
