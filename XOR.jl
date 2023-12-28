@@ -40,7 +40,9 @@ plot_inputs(df)
 #inputs are x and y.  output is = x'* y + x * y' 
 #there is only one hidden layer that contains a decision boundary for an and/or node.
 
-# an activation function (RELU)
+# an activation function (TANH)
+function tanh(z)
+    return (exp(z) - exp(-z))/(exp(z) + exp(-z))
 
 
 # make a loss function (Binary Cross Entropy) ???
