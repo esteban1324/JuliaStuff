@@ -43,8 +43,7 @@ plot_inputs(df)
 # an activation function (TANH)
 function tanh(z)
     return (exp(z) - exp(-z))/(exp(z) + exp(-z))
-
-
+end 
 # make a loss function (Binary Cross Entropy) ???
 
 # gradient decent function (Derive myself)
